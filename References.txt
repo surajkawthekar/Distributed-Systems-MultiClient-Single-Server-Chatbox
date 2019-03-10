@@ -1,0 +1,34 @@
+					// Name:Suraj Madhav Kawthekar	
+					// Net id: 1001514614
+					Distributed Systems Assignment 1 Writeup
+
+1]The following are the citations I have used as reference in my code
+
+1) https://stackoverflow.com/questions/15247752/gui-client-server-in-java
+
+2)Multi-Threaded Chat Application in Java | Set 1 (Client Side Programming).” GeeksforGeeks, 17 June 2017, www.geeksforgeeks.org/multi-threaded-chat-application-set-1/. code by Rishabh Mahrsee
+
+3)Multi-Threaded Chat Application in Java | Set 2 (Client Side Programming).” GeeksforGeeks, 17 June 2017, www.geeksforgeeks.org/multi-threaded-chat-application-set-2/. code by Rishabh Mahrsee
+
+4)https://stackoverflow.com/questions/10274750/java-swing-setting-margins-on-textarea-with-line-border
+
+5)Marshall, James. “HTTP Made Really Easy.” HTTP Made Really Easy, 10 Dec. 2012, www.jmarshall.com/easy/http/#http1.1s3.
+
+
+2]Steps to run the code
+Using eclipse-jee-kepler-SR2-win32-x86_64
+1.Load the project into your work space
+2.Expand ChatBox> src> default package > Run SocketServerApplication.java first >run MultiClientChatApplication.java
+
+Assumptions:
+1.Server should always be executed first and then you should execute the client.
+2.I have hardcoded the HTTP formats for messages refering to "Marshall, James. “HTTP Made Really Easy.” HTTP Made Really Easy, 10 Dec. 2012, www.jmarshall.com/easy/http/#http1.1s3.
+" the link which is provided in the project description.
+3.Client can logout with the logout command.
+4.Use Wordpad or notepad++ for best viewing the log.txt file.
+5.The log.txt file which is the database file gets created and stored inside the ChatBox folder.
+It will automatically append the new messages that are sent when the program is run again.
+6.If the code does not run in the first instance check the path of the log.txt file.
+7.The GUI is designed simple as specified in the document of the assignment.
+8.Duration between two messages is calculated in the format mm:ss.
+
